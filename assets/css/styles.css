@@ -408,3 +408,80 @@ a {
     color: #fff;
     background: var(--primary-color);
 }
+
+/* Feedback */
+.feedback {
+    margin-top: 65px;
+    padding: 96px 0;
+    background: #2e2100;
+}
+
+.feedback .feedback-list {
+    display: flex;
+    overflow: hidden;
+}
+
+.feedback .feedback-item {
+    display: flex;
+    flex-shrink: 0;
+    width: 100%;
+}
+
+.feedback .feedback-item .info {
+    width: 34%;
+}
+
+.feedback .feedback-item .avatar {
+    width: 72px;
+    height: 72px;
+    border-radius: 50%;
+    object-fit: cover;
+}
+
+.feedback .feedback-item .title {
+    margin-top: 18px;
+    color: #f7f7f7;
+    font-family: var(--font-heading);
+    font-size: 2.4rem;
+    font-weight: 700;
+}
+
+.feedback .feedback-item .desc {
+    margin-top: 4px;
+    color: #bfbcb2;
+    font-size: 1.4rem;
+    font-weight: 400;
+    line-height: 1.86;
+}
+
+.feedback .feedback-item .dots {
+    display: flex;
+    margin-top: 28px;
+    gap: 6px;
+}
+
+.feedback .feedback-item .dot {
+    width: 6px;
+    height: 6px;
+    border-radius: 50%;
+    background: #634700;
+    cursor: pointer;
+}
+
+.feedback .feedback-item .dot.active {
+    background: #ffb900;
+    cursor: default;
+}
+
+.feedback .feedback-item .content {
+    width: 66%;
+}
+
+.feedback .feedback-item blockquote {
+    margin-left: 30px;
+    color: #fff;
+    font-size: 2.6rem;
+    font-style: italic;
+    font-weight: 400;
+    line-height: 1.54;
+}
