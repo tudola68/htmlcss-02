@@ -67,6 +67,8 @@ body {
 .btn:hover {
     opacity: 0.8;
     cursor: pointer;
+    color: #fff;
+    background: var(--primary-color);
 }
 
 a {
@@ -318,11 +320,6 @@ a {
     background: transparent;
 }
 
-.popular .popular-top .control-btn:hover {
-    color: #fff;
-    background: var(--primary-color);
-}
-
 .popular .course-list {
     display: flex;
     margin-top: 55px;
@@ -404,14 +401,9 @@ a {
     border: none;
 }
 
-.popular .course-item .book-btn:hover {
-    color: #fff;
-    background: var(--primary-color);
-}
-
 /* Feedback */
 .feedback {
-    margin-top: 65px;
+    margin: 65px 0;
     padding: 96px 0;
     background: #2e2100;
 }
@@ -484,4 +476,72 @@ a {
     font-style: italic;
     font-weight: 400;
     line-height: 1.54;
+}
+
+/* Features - 1st */
+.features {
+    padding: 65px 0;
+    margin-top: 135px;
+}
+
+.features .body {
+    display: flex;
+    justify-content: space-between;
+}
+
+.features .images {
+    display: flex;
+    gap: 0 30px;
+}
+
+.features .images img {
+    width: 270px;
+    height: 405px;
+    object-fit: cover;
+    border-radius: 16px;
+}
+
+.features .images img.lower {
+    margin-top: 33px;
+}
+
+.features .content {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: flex-start;
+    margin-left: 130px;
+    width: 41%;
+}
+
+.features .content .desc {
+    margin-top: 16px;
+    color: #5f5b53;
+    font-size: 1.6rem;
+    font-weight: 400;
+    line-height: 1.75;
+}
+
+.features .content .btn {
+    margin-top: 32px;
+    padding: 0 37px;
+}
+
+/* Features - 2nd */
+.features-2nd {
+    margin-top: 70px;
+}
+
+.features-2nd .body {
+    flex-direction: row-reverse;
+}
+
+.features-2nd .content {
+    width: 49%;
+    margin: 0;
+}
+
+.features-2nd .images img {
+    width: 470px;
+    height: 440px;
 }
